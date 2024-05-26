@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+</head>
+<body>
+    <h1>Meu Registro das aulas</h1>
+    <hr>
+
+    <p>Antes de começar o conteudo desse blog (diario), queria comentar que aqui está a minha compreensão sobre as aulas na Formação HTML Web Developer da DIO.</p> 
+    <p>Apesar de apenas comentar sobre a primeira parte, ainda assim estou registrando aqui não apenas para o projeto, mas para reforçar o meu próprio conhecimento.</p>
+    <p>Desde já uma boa leitura e agradeço pelo tempo e a atenção de quem analisar.</p>
+    <hr>
+
+    <h2 id="indice">Indice</h2>
+
+    <h3><u><i>1 - Entendendo Comunicação Client X Server</i></u></h3>
+    <ul>
+        <font size=4+><li><a href="#historia">História da Web</a></li>
+        <li><a href="#client">O que são Clients</a></li>
+        <li><a href="#server">O que são Servers</a></li>
+        <li><a href="#lp">Linguagens de Programação</a></li></font>
+    </ul>
+
+    <h3><u><i>2 - Introdução ao HTML na Pratica</i></u></h3>
+    <ul>
+        <font size=4+><li><a href="#ferramentas">Ferramentas utilizadas e base</a></li>
+        <li><a href="#tags">Tags</a></li></font>
+    </ul>    
+    <p><font size=4+><a href="#ref">Referências</a></p>
+  
+    <hr>
+
+    <h2 id="historia">História da Web</h2>
+    <p><font size=4+><blockquote>"Na tecnologia, o computador é um <mark>dispositivo eletroeletrônico</mark> formado por um conjunto de componentes eletrônicos capaz de executar variados tipos de tratamento de informações (processamento de dados) e de algoritmos. Este dispositivo normalmente possui inúmeros atributos, dentre eles: armazenamento de dados, cálculo em grande escala, desenho industrial, tratamento de imagens gráficas, realidade virtual, entretenimento e cultura.</p>
+    <p>No passado, o termo foi inicialmente aplicado a pessoas responsáveis por realizar cálculos. Em geral, entende-se por computador sendo um sistema físico que realiza algum tipo de computação. Existe ainda o conceito matemático rigoroso, utilizado na teoria da computação."<sup><a href=#ref1>[1]</a></sup></blockquote></p>
+    <p>Citei aqui uma descrição pratica do wikipédia sobre o que é o computador, assim como acabou de explicar, ja se foi conhecido como computador varias ferramentas que auxiliavam a realizar calculos mais complexos em questão de instantes, até mesmo o <strong>ábaco</strong> ja foi visto como um.</p>
+    <p>Isso até o começo da Segunda Guerra Mundial, onde com a necessidade de calculos e estudos cada vez mais complexos, criou-se a primeira leva de computadadores similares aos objetos que convivemos, no caso ainda apenas realizam calculos mas foi um grande avanço comparado as ferramentas da época.</p>
+    <p>Alguns dos primeiros computadores foram:</p>
+    <ul>
+        <li>Harvard Mark I (1944)</li>
+        <li>Colossus (1946)</li>
+        <li><abbr>ENIAC</abbr> - <i><strong>E</strong>letronic <strong>N</strong>umeric <strong>I</strong>ntegrator <Strong>A</Strong>nd <strong>C</strong>alculator</i> (1946)<sup><a href=#ref2>[2]</a></sup></li>
+    </ul>
+    <p>Na aula seguinte, estudamos sobre a criação da <strong>Web</strong>. Inicialmente, a comunicação a longa distância era realizada apenas pelos telégrafos da época através de longos cabos submarinos.</p>
+    <p>Durante a Guerra Fria, com a corrida espacial e a disputa tecnologica entre os Estados Unidos e a então União Soviética fizeram com que uma agência dos <abbr>EUA</abbr>, a <abbr>DARPA</abbr><sup><a href=#ref3>[3]</a></sup> - <strong>D</strong>efense <strong>A</strong>dvanced <strong>R</strong>esearch <strong>P</strong>rojects <strong>A</strong>gency (Inicialmente apenas <abbr>ARPA</abbr> - <strong>A</strong>dvanced <strong>R</strong>esearch <strong>P</strong>rojects <strong>A</strong>gency) desenvolve-se o que chamamos de o avô dos roteadores, a <abbr>ARPANET</abbr><sup><a href=#ref4>[4]</a></sup> - <strong>A</strong>dvanced <strong>R</strong>esearch <strong>P</strong>rojects <strong>A</strong>gency <strong>Net</strong>work, graças a idéia de Joseph Carl Robnett Licklider<sup><a href=#ref5>[5]</a></sup> que teorizou a ideia de uma grande rede de computadores interligados.</p>  
+    <p>Com o desenvolvimento inicial da rede, dois pesquisadores ajudaram a desenvolver os protocolos <abbr>TCP/IP</abbr> - Transmission Control Protocol / Internet Protocol, sendo eles respectivamente: Robert Kahn<sup><a href=#ref6>[6]</a></sup> e Vinton Cerf<sup><a href=#ref7>[7]</a></sup>. O que permitia uma forma de comunicação mais precisa, que sempre buscava alcançar seu destino de forma mais rapida e eficiente indepedente de qual rota utilizar caso algum ponto fosse destruido.</p>
+    <p>E finalmente, com a visão de Tim Berners-Lee<sup><a href=#ref8>[8]</a></sup>, veio a união de hypertexto e o TCP/IP, gerando o que hoje nós conhecemos como a WWW<sup><a href=#ref9>[9]</a></sup> - <strong>W</strong>orld <strong>W</strong>ide <strong>W</strong>eb</p>
+    <p>E quanto aos grandes nomes da tecnologia que são referência para o assunto são:
+        <ul>
+            <li>Grace Murray Hopper, uma das primeiras programadoras do Mark I</li>
+            <li>Joseph Carl Robnett Licklider, aquele que plantou a idéia da comunicação entre dois pontos distantes através dos computadores</li>
+            <li>Robert Kahn e Vinton Cerf, criadores do TCP/IP</li>
+            <li>Tim Berners-Lee, inventor do WWW</li>
+            <li>Marc Andreessen, criador do Netscape Navigator</li>
+            <li>Bill Gates, fundador da Microsoft</li>
+            <li>Steve Jobs, criador da Apple</li></font>
+        </ul>
+    </p>
+    <small><a href="#indice">voltar</a></small>
+    <hr>
+
+    <h2 id="client">O que são Clients</h2>
+    <font size=4+><p><Strong><i>Clients</i></Strong><sup><a href=#ref10>[10]</a></sup> nada mais é do que um dispositivo que recebe a informação de um servidor em uma conexão cliente-servidor através da internet.</p>
+    <p>O Client pode acessar essa informação através de navegadores, aplicações Web ou dispositivos móveis.</p>
+    <p>Muito do desenvolvimento referente ao Front-End está escrito em formato HTML, CSS, Javascript, permitindo uma boa qualidade e eficácia para a disponibilização da informação que o Client ira receber.</p>
+    <p>Além disso, também foi explicado sobre a necessidade de design responsivo (ou responsividade) durante o desenvolvimento de um website, visto que a diferentes resoluções de dispositivos e também sobre a compatibilidade entre os browsers.</p></font>
+    <small><a href="#indice">voltar</a></small>
+    <hr>
+
+    <h2 id="server">O que são Servers</h2>
+    <font size=4+><p><strong><i>Server</i></strong><sup><a href=#ref11>[11]</a></sup> é o dispositivo ou software que pode armazenar dados, distribuir dados ou realizar diversos tipos de serviços para o Client quando requisitado.</p>
+    <p>Um unico server pode ser acessado por varios clients e normalmente são dispositivos mais robustos para poder suportar a carga e velocidade de transmissão de dados.</p>
+    <p>Existem varios tipos de servers, por exemplo:
+        <ul>
+            <li>Arquivos</li>
+            <li>Segurança (Firewall)</li>
+            <li>Streaming</li>
+            <li>E-mail</li>
+            <li>WEB</li></font>           
+        </ul>
+    </p>
+    <small><a href="#indice">voltar</a></small>    
+    <hr>
+
+    <h2 id="lp">Linguagem de Programação</h2>
+    <font size=4+><p><strong><i>Linguagem de programação</i></strong> é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software)</p>
+    <p>Elas podem ser classificadas em dois tipos, sendo eles: Front-End (ex: Javascript) e Back-End (Java, Ruby, etc...).</p>
+    <p><mark>Lembrete:</mark>Muitos pensam que HTML é linguagem de programação, mas na verdade ela não é, sendo um arquivo de marcação, tendo textos delimitados por nomes que o navegador consegue interpretar.</p></font>
+    <small><a href="#indice">voltar</a></small>
+    <hr>
+
+    <h2 id="ferramentas">Ferramentas Utilizadas e base</h2>
+    <font size=4+><p>Foi recomendado o uso do Visual Studio Code para poder desenvolver em HTML. Alem disso, foi apresentado o inspetor de elementos no browser google chrome. Uma ótima ferramenta para ver e até editar temporariamente a construção de um site.</p>
+    <p>A construção de uma página HTML segue essa estrutura:
+        <ul>
+            <li>Arquivos</li>
+            <li>Segurança (Firewall)</li>
+            <li>Streaming</li>
+            <li>E-mail</li>
+            <li>WEB</li>        
+        </ul>
+    </p></font>
+    <small><a href="#indice">voltar</a></small>
+    <hr>
+
+    <h2 id="tags">Tags</h2>
+    <font size=4+><p>Em relação as tags temos a utilização de várias que permitem estruturar bastante partes dentro de um projeto. Exemplos práticos são:
+        <ul>
+            <li>h1 até h6 (Padrão para criar titulos, sub-titulos, e outros titulos de seção)</li>
+            <li>p (Criar parágrafo)</li>
+            <li>Mark (Criar uma marcação sobre uma palavra para destaca-la)</li>
+            <li>small (encolher o tamanho de um texto)</li>
+            <li>i, u (Deixa o texto italico e sublinhado respectivamente)</li> 
+            <li>strong (Aumenta o nivel de importância de um texto, não confundir com b que apenas deixa em negrito)</li>          
+            <li>ol, ul, li (ol cria lista ordenada, ul cria lista não-ordenada e li representa cada item em uma lista)</li>          
+            <li>a (tag âncora, que permite anexar imagens, links e outros em uma pagina)</li>          
+            <li>hr (cria uma linha separada de textos)</li>          
+            <li>sub, sup (sub cria um texto minusculo embaixo de outro texto, sup cria um texto minusculo acima de outro texto)</li>
+            <li>blockquote (permite criar um texto em um bloco para colocar citações)</li>                  
+        </ul>
+    </p></font>
+    <small><a href="#indice">voltar</a></small>
+    <hr>
+
+    <h2 id="ref">Referências</h2>
+    <font size=4+>
+        <ul>
+            <li id="ref1">[1]</a> - <a href="https://pt.wikipedia.org/wiki/Computador">https://pt.wikipedia.org/wiki/Computador</a></li>
+            <li id="ref2">[2]</a> - <a href="https://pt.wikipedia.org/wiki/ENIAC">https://pt.wikipedia.org/wiki/ENIAC</a></li>
+            <li id="ref3">[3]</a> - <a href="https://pt.wikipedia.org/wiki/Defense_Advanced_Research_Projects_Agency">https://pt.wikipedia.org/wiki/Defense_Advanced_Research_Projects_Agency</a></li>
+            <li id="ref4">[4]</a> - <a href="https://pt.wikipedia.org/wiki/ARPANET">https://pt.wikipedia.org/wiki/ARPANET</a></li>
+            <li id="ref5">[5]</a> - <a href="https://pt.wikipedia.org/wiki/Joseph_Carl_Robnett_Licklider">https://pt.wikipedia.org/wiki/Joseph_Carl_Robnett_Licklider</a></li> 
+            <li id="ref6">[6]</a> - <a href="https://pt.wikipedia.org/wiki/Robert_Kahn">https://pt.wikipedia.org/wiki/Robert_Kahn</a></li>          
+            <li id="ref7">[7]</a> - <a href="https://pt.wikipedia.org/wiki/Vint_Cerf">https://pt.wikipedia.org/wiki/Vint_Cerf</a></li>          
+            <li id="ref8">[8]</a> - <a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee">https://pt.wikipedia.org/wiki/Tim_Berners-Lee</a></li>          
+            <li id="ref9">[9]</a> - <a href="https://pt.wikipedia.org/wiki/World_Wide_Web">https://pt.wikipedia.org/wiki/World_Wide_Web</a></li>          
+            <li id="ref10">[10]</a> - <a href="https://pt.wikipedia.org/wiki/Cliente_(computa%C3%A7%C3%A3o)">https://pt.wikipedia.org/wiki/Cliente_(computa%C3%A7%C3%A3o)</a></li>
+            <li id="ref11">[11]</a> - <a href="https://pt.wikipedia.org/wiki/Servidor">https://pt.wikipedia.org/wiki/Servidor</a></li>                  
+        </ul>
+    </font>
+    <small><a href="#indice">voltar</a></small>
+    <hr>
+
+</body>
+</html>
